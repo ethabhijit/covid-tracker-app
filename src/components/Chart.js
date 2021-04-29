@@ -55,7 +55,7 @@ const Chart = () => {
 	return (
 		<Container className={classes.char_container}>
 			<Grid container justify="center">
-				<Grid item md={6} sm={8} xs={10}>
+				<Grid item md={6} sm={10} xs={12}>
 					<Line data={chartData} options={options} />
 				</Grid>
 			</Grid>
