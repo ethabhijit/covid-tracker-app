@@ -31,7 +31,7 @@ const Chart = () => {
 		labels: lable,
 		datasets: [
 			{
-				label: "# of Votes",
+				label: "Covid-19 Chart",
 				data: covidData,
 				fill: false,
 				backgroundColor: "rgb(255, 99, 132)",
