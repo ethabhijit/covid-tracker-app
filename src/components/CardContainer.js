@@ -16,8 +16,8 @@ const CardContainer = ({ title, caseNumber, color  }) => {
 		<>
 			<Card>
 				<CardContent>
-					<Typography variant="h6">{title}</Typography>
-					<Typography variant="h3">
+					<Typography variant="subtitle2">{title}</Typography>
+					<Typography variant="h6" style={{ color }}>
 						{caseNumber}
 					</Typography>
 				</CardContent>

@@ -3,6 +3,7 @@ import Nav from "./components/Nav";
 import CardComponent from "./components/CardComponent";
 import DataTable from "./components/DataTable";
 import { DataProvider } from "./context/DataContext";
+import Chart from "./components/Chart";
 
 const App = () => {
 	return (
@@ -10,6 +11,7 @@ const App = () => {
 			<Nav />
 			<DataProvider>
 				<CardComponent />
+				<Chart />
 				<DataTable />
 			</DataProvider>
 			

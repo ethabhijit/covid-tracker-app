@@ -30,7 +30,7 @@ const CardComponent = () => {
 						<CardContainer
 							title="Active"
 							caseNumber={numberWithCommas(data?.total_values?.active)}
-							color="#0288d1"
+							color="#7b1fa2"
 						/>
 					</Grid>
 					<Grid item md={3} xs={12} sm={6}>
